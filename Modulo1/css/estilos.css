@@ -1,0 +1,32 @@
+/* archivo de estilos */
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+:root{
+    font-size: 24px;
+}
+body{
+    background-color: bisque;
+    font-size: 24px;
+    
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    font-variant: small-caps;
+    font-style: italic;
+    
+}
+
+/*
+px -> pixeles
+fuentes 16px
+px
+
+rem (root element's font-size)
+1 rem -> 16px
+1.5 rem -> 16 * 1.5 = 24px
+
+*/
