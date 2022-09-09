@@ -1,7 +1,7 @@
 /* archivo de estilos */
 @import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
 :root{
-    font-size: 24px;
+    font-size: 8px;
 }
 body{
     background-color: bisque;
@@ -19,6 +19,23 @@ p{
     font-style: italic;
     
 }
+h2{
+    font-size: 2rem;
+}
+h3 strong{
+    color:red;
+}
+h1, h2, h3{
+    color:darkblue;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
 
 /*
 px -> pixeles
@@ -28,5 +45,12 @@ px
 rem (root element's font-size)
 1 rem -> 16px
 1.5 rem -> 16 * 1.5 = 24px
+2rem = 32px
+1.5 rem = (16*1.5 = 24px)
+26px -> 26/16= 1.625rem
+
+https://theodorusclarence.com/blog/btb-rem-em
 
 */
+
+   
