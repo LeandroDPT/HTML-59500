@@ -7,51 +7,58 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modulo 2</title>
 
-<style>
-    a:hover{
-        color: brown;
-    }
-    /*a:link{
+    <style>
+        img{
+            background: aquamarine;
+        }
+        a:hover {
+            color: brown;
+        }
+
+        /*a:link{
         color:green;
     }*/
-    a:visited{
-        color:aqua;
-    }
-    a:active{
-        color:deeppink;
-    }
-    .bienAncho{
-       width: 500px; 
-    }
-    .div1{
-        width: 300px;
-        height: 100px;
-        border: 2px solid blue;
-        /*      ancho   tipo    color*/
-    }
-    .div2{
-        width: 300px;
-        height: 100px;
-        padding: 50px;
-        border: 2px solid red;
-    }
-    .div3{
-        width: 300px;
-        height: 105px;
-        border: 2px solid blue;
-        box-sizing: border-box;
-    }
-    .div4{
-        width: 300px;
-        height: 105px;
-        padding: 50px;
-        border: 2px solid red;
-        box-sizing: border-box;
-    }
+        a:visited {
+            color: aqua;
+        }
 
+        a:active {
+            color: deeppink;
+        }
 
+        .bienAncho {
+            width: 500px;
+        }
 
-</style>
+        .div1 {
+            width: 300px;
+            height: 100px;
+            border: 2px solid blue;
+            /*      ancho   tipo    color*/
+        }
+
+        .div2 {
+            width: 300px;
+            height: 100px;
+            padding: 50px;
+            border: 2px solid red;
+        }
+
+        .div3 {
+            width: 300px;
+            height: 105px;
+            border: 2px solid blue;
+            box-sizing: border-box;
+        }
+
+        .div4 {
+            width: 300px;
+            height: 105px;
+            padding: 50px;
+            border: 2px solid red;
+            box-sizing: border-box;
+        }
+    </style>
 
 </head>
 
@@ -112,7 +119,7 @@
     <h1 style="line-height: 2px;">Mendoza</h1>
     <h2 style="line-height: 2px;">Destino seguro y abierto al turismo</h2>
 
-    <p>Shift (mayuscula) + ALT + F    -> "Acomoda el texto"</p>
+    <p>Shift (mayuscula) + ALT + F -> "Acomoda el texto"</p>
 
 
     <a href="mailto:pepe@mail.com">Enviar Correo</a>
@@ -128,26 +135,28 @@
         <!-- margin maneja el espacio respecto al limite de la pagina o de si mismo con objetos adyacentes-->
         <tr>
             <td>texto 1</td>
-            <td style="width:200px;padding: 30px;">texto 2 y texto3</td> <!-- maneja el espacio desde el objeto hacia quien lo contiene-->
+            <td style="width:200px;padding: 30px;">texto 2 y texto3</td>
+            <!-- maneja el espacio desde el objeto hacia quien lo contiene-->
             <td>texto 3</td>
         </tr>
         <tr>
             <td>texto 4</td>
             <td>texto 5</td>
-            <td>texto 6</td >
+            <td>texto 6</td>
         </tr>
     </table>
 
     <table border="1" cellspacing="0" style="margin:40px;">
         <tr>
             <td>texto 1</td>
-            <td style="width:200px; height: 120px;padding: 70px;">width define el ancho de un objeto<br>height define la altura</td>
+            <td style="width:200px; height: 120px;padding: 70px;">width define el ancho de un objeto<br>height define la
+                altura</td>
             <td>texto 3</td>
         </tr>
         <tr>
             <td class="bienAncho">texto 4 bien ancho</td>
             <td style="width:200px; height: 120px;">width define el ancho de un objeto<br>height define la altura</td>
-            <td>texto 6</td >
+            <td>texto 6</td>
         </tr>
     </table>
 
@@ -171,9 +180,68 @@
     <div class="div4">buenisimo!</div>
 
 
+    <h2>Text transform:</h2>
+    <p style="text-transform:uppercase;">Este texto lo quiero todo en mayuscula</p>
+    <p style="text-transform:lowercase;">Este texto lo quiero todo en mayuscula</p>
+    <p style="text-transform:capitalize;">Este texto lo quiero todo en mayuscula</p>
+    <p style="text-transform:none;">Este texto lo quiero todo en mayuscula</p>
+
+    <h2>Text decoration</h2>
+    <p style="text-decoration: underline;">Texto subrayado debajo</p>
+    <p style="text-decoration: underline blue;">Texto subrayado debajo</p>
+    <p style="text-decoration: underline blue 8px;">Texto subrayado debajo</p>
+    <p style="text-decoration: underline blue 0.5rem;">Texto subrayado debajo</p>
+    <br>
+    <p style="text-decoration: overline;">Texto subrayado arriba</p>
+    <p style="text-decoration: underline overline;">Texto subrayado arriba y abajo</p>
+    <p style="text-decoration: line-through;">Texto tachado</p>
+    <p style="text-decoration: underline dotted red;">Texto tachado</p>
+    <p style="text-decoration: underline dashed red;">Texto tachado</p>
 
 
+    <h2>Alineacion del texto</h2>
+    <p style="text-align:right">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi labore fugiat
+        commodi veritatis error quae molestiae nostrum molestias eum. Accusantium fuga non doloremque blanditiis dolorum
+        quisquam voluptatum! Sint, necessitatibus porro.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aliquam rem qui repellendus voluptatum fugit
+        error, ex nobis, ipsa recusandae eos. Nobis est ullam libero. Officiis sapiente aliquam voluptates o minima?
+    </p>
+    <p style="text-align:center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi labore fugiat
+        commodi veritatis error quae molestiae nostrum molestias eum. Accusantium fuga non doloremque blanditiis dolorum
+        quisquam voluptatum! Sint, necessitatibus porro.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aliquam rem qui repellendus voluptatum fugit
+        error, ex nobis, ipsa recusandae eos. Nobis est ullam libero. Officiis sapiente aliquam voluptates o minima?</p>
 
+    <p style="text-align:left">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi labore fugiat
+        commodi veritatis error quae molestiae nostrum molestias eum. Accusantium fuga non doloremque blanditiis dolorum
+        quisquam voluptatum! Sint, necessitatibus porro.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aliquam rem qui repellendus voluptatum fugit
+        error, ex nobis, ipsa recusandae eos. Nobis est ullam libero. Officiis sapiente aliquam voluptates o minima?</p>
+
+
+    <p style="text-align:justify">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi labore fugiat
+        commodi veritatis error quae molestiae nostrum molestias eum. Accusantium fuga non doloremque blanditiis dolorum
+        quisquam voluptatum! Sint, necessitatibus porro.
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sit aliquam rem qui repellendus voluptatum fugit
+        error, ex nobis, ipsa recusandae eos. Nobis est ullam libero. Officiis sapiente aliquam voluptates o minima?
+    </p>
+
+
+    <h2>Imagenes</h2>
+
+    <img src="imagen.jpg" alt="Desc Img" title="Titulo img">
+    <!-- src -> source, o sea origen -->
+
+    <img src="https://ssl.gstatic.com/ui/v1/icons/mail/rfr/logo_gmail_lockup_light_1x_r5.png" style="width: 1000px;" alt="Gmail">
+    <img src="https://static.educacionit.com/alumni/assets/generic/logo.svg" style="width:1000px" width="100px">
+    <img src="https://images.unsplash.com/photo-1602685234860-3d38ee425ae8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" width="100px" style="padding: 30px">
+<h3>Tipos</h3>
+<h4>jpg</h4>
+<p>imagenes comprimidas de buena/alta calidad</p>
+<h4>png</h4>
+<p>imagenes buena calidad y tienen capacidad de tranparencia</p>
+<h4>svg</h4>
+<p>imganes vectoriales</p>
 
     <p>&nbsp;</p>
     <p>&nbsp;</p>
