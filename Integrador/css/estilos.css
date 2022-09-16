@@ -1,19 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
-h1{
+h1 {
     font-size: 64px;
 }
-h1 strong{
+
+h1 strong {
     font-family: 'Coiny', cursive;
     font-size: 117.33px;
 }
-h1, strong{
+
+h1,
+strong {
     font-weight: 700;
     font-family: 'Coiny', cursive;
 }
-body{
+
+body {
     font-family: 'Roboto', sans-serif;
-    font-weight: 400; /* esto es standard, no es negrita */
+    font-weight: 400;
+    /* esto es standard, no es negrita */
+    margin: 0px;
+    background-color: #ddd;
 }
-h2 {font-weight: 400; font-size: 26.66px;}
-h3 { font-weight: 900;}
+
+nav {
+    width: 100%;
+    border-top: 5px solid #fcee21;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 26.66px;
+    background-color: #fcee21;
+}
+
+h3 {
+    font-weight: 900;
+    background-color: #fcee21;
+}
+img{
+    width: 100%;
+}
