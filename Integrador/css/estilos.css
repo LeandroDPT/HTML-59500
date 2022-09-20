@@ -41,3 +41,9 @@ h3 {
 img{
     width: 100%;
 }
+
+ol{
+    font-size: 2em;
+    font-weight: 400;
+    list-style-position: inside;
+}
