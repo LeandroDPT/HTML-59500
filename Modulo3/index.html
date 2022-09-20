@@ -70,9 +70,9 @@
         <input type="text" name="nombre2" value="" maxlength="10"><br>
         Con validacion <br>
         <input type="text" name="nombre3" value="" required><br>
-        Con texto orientativo <br>
+        Con texto orientativo 
         <input type="text" name="nombre4" value="" placeholder="Su nombre..."><br>
-        Contraseña <br>
+        Contraseña 
         <input type="password" name="contraseña" id=""><br>
         Correo <br>
         <input type="email" name="" id="" required><br>
@@ -93,6 +93,86 @@
 
 
 <button type="submit" form="formu1" >Enviar</button>
+
+<br>
+<input type="file">
+<br>
+<input type="file" multiple>
+
+<br>
+Eleccion tipo menu:<br>
+<select name="tipoDocu" id="">
+    <option value="20">DNI</option>
+    <option value="80">CUIT</option>
+    <option value="25">Pasaporte</option>
+</select>
+<input type="text">
+
+<br>
+Eleccion multiple de auto:<br>
+<select name="" id="" multiple>
+    <option value="">VW</option>
+    <option value="">Fiat</option>
+    <option value="">Chevrolet</option>
+    <option value="">Ford</option>
+</select>
+
+<br>
+Caja de comentarios:
+<br>
+<textarea name="" id="" cols="50" rows="10"></textarea>
+
+
+<br>
+Formularios<br>
+
+<br>
+Botones
+<br>
+<input type="submit" value="">
+<input type="submit" value="enviar">
+
+<button type="submit">Enviar</button>
+<button type="reset">Resetear</button>
+
+<br>
+checkbox
+<br>
+Seleccione su vehiculo:<br>
+<form action="enviar.php">
+    <input type="checkbox" name="ve01" id="ve01" value="Bicicleta">
+    <label for="ve01">Bicicleta</label>
+    <input type="checkbox" name="ve02" id="ve02" value="Auto" checked>
+    <label for="ve02">Auto</label>
+    <input type="checkbox" name="ve03" id="ve03" value="Bote">
+    <label for="ve01">Bote</label>
+</form>
+<br>Seleccione lenguaje preferido<br>
+<form>
+    <input type="radio" id="html" name="fav_language" value="HTML">
+    <label for="html">HTML</label>
+    <input type="radio" id="css" name="fav_language" value="CSS" checked>
+    <label for="css">CSS</label>
+    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+    <label for="javascript">JavaScript</label>
+</form>
+
+
+<style>
+    input{
+        width: 200px;
+        height: 20px;
+    }
+    label{
+        display:block;/*  hace que el label se comporte como bloque, ocupando todo el ancho, en vez de linea*/
+    }
+    h1{
+        display: inline;
+    }
+
+</style>
+
+https://www.w3schools.com/cssref/tryit.asp?filename=trycss_display
 
 
 
