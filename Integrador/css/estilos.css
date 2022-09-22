@@ -38,12 +38,43 @@ h3 {
     font-weight: 900;
     background-color: #fcee21;
 }
-img{
+
+img {
     width: 100%;
 }
 
-ol{
+ol {
     font-size: 2em;
     font-weight: 400;
     list-style-position: inside;
+}
+
+.Item {
+    font-size: 36px;
+    font-weight: bold;
+    background-color: #fcee21;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+label{
+    font-size: 24px;
+    font-weight: bold;
+    display: block;
+}
+
+.boton{
+    width: auto;
+    background-color: black;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+span{
+    color: red;
 }
