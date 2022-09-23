@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    /* esto es standard, no es negrita */
+    font-size: 22px;
+    margin: 0px;
+    background-color: #ddd;
+}
+
 h1 {
     font-size: 64px;
 }
@@ -27,16 +36,15 @@ h3 {
 }
 
 h4{
-    
+    margin: 0;
+    font-size: 60px;
+    color: #fff;
+    background-color: black;
+    line-height: 80px;
+    display: inline;
 }
 
-body {
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    /* esto es standard, no es negrita */
-    margin: 0px;
-    background-color: #ddd;
-}
+
 
 nav {
     width: 100%;
@@ -49,6 +57,10 @@ nav a{
     margin-left: 20px;
     text-decoration: none;
     color: #808080;
+}
+footer a{
+    text-decoration: none;
+    color: black;
 }
 nav a:hover{
     text-decoration: underline;
@@ -77,10 +89,14 @@ ul{
     background-color: #fcee21;
 }
 
+input{
+    height: 40px;
+}
+
 input,
 textarea {
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 label{
@@ -115,4 +131,10 @@ span{
 
 section{
     width: 45%;
+}
+
+footer{
+    height: 100px;
+    background-color: #fcee21;
+
 }
