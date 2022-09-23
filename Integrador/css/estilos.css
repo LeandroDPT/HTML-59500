@@ -15,6 +15,21 @@ strong {
     font-family: 'Coiny', cursive;
 }
 
+h2 {
+    font-weight: 400;
+    font-size: 26.66px;
+    background-color: #fcee21;
+}
+
+h3 {
+    font-weight: 900;
+    background-color: #fcee21;
+}
+
+h4{
+    
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -27,17 +42,18 @@ nav {
     width: 100%;
     border-top: 5px solid #fcee21;
 }
-
-h2 {
-    font-weight: 400;
-    font-size: 26.66px;
-    background-color: #fcee21;
+nav h1{
+    margin-right: auto;
+}
+nav a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: #808080;
+}
+nav a:hover{
+    text-decoration: underline;
 }
 
-h3 {
-    font-weight: 900;
-    background-color: #fcee21;
-}
 
 img {
     width: 100%;
@@ -47,6 +63,12 @@ ol {
     font-size: 2em;
     font-weight: 400;
     list-style-position: inside;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .item {
@@ -83,6 +105,12 @@ span{
     font-size: 36px;
     text-transform: uppercase;
     font-weight: bold;
+}
+#redes{
+    font-size: 30px;
+    font-weight: bold;
+    color: #808080;
+    /*ver margenes*/
 }
 
 section{
