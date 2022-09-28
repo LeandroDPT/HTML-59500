@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Coiny&family=Roboto:wght@400;700;900&display=swap');
 
+*{
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -49,6 +53,10 @@ h4{
 nav {
     width: 100%;
     border-top: 5px solid #fcee21;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
 }
 nav h1{
     margin-right: auto;
@@ -69,6 +77,11 @@ nav a:hover{
 
 img {
     width: 100%;
+}
+
+aside img{
+    height: auto;
+    width: 50%;
 }
 
 ol {
@@ -136,5 +149,65 @@ section{
 footer{
     height: 100px;
     background-color: #fcee21;
-    
+    display: flex;
+    align-items: center;
 }
+
+.encolumnar{
+    display: flex;
+    justify-content: space-evenly;
+}
+/* usar @media hace que las condiciones establecidas CSS se apliquen dependiendo del medio que se encuentran*/
+@media only screen and (min-width : 1201px) { 
+    h1{
+        font-size: 2em;
+    }
+    h1 strong{
+        font-size: 2em;
+    }
+}
+
+@media only screen and (max-width : 1200px) { 
+    h1{
+        font-size: 1.7em;
+    }
+    h1 strong{
+        font-size: 1.7em;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    h1{
+        font-size: 1.4em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    h1 strong{
+        font-size: 1.4em;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+ }
+ 
+@media only screen and (max-width : 768px) {
+    h1{
+        display: none;
+    }
+    h1 strong{
+        display: none;
+    }
+    nav h1{
+        display: block;
+    }
+    .encolumnar{
+        display: block;
+    }
+    section {
+        width: 100%;
+    }
+    aside{
+        display: flex !important;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+ }
