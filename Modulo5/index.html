@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Modulo 5</title>
     <style>
-        main{
+        main {
             height: 300px;
             display: flex;
             /*
@@ -17,7 +18,7 @@
             justify-content: space-between;
             */
             justify-content: space-evenly;
-            
+
             /*
             align-items: center;
             align-items: flex-end;
@@ -25,23 +26,29 @@
             */
             align-items: center;
         }
-        #uno{
+
+        #uno {
             background-color: red;
         }
-        #dos{
+
+        #dos {
             background-color: green;
         }
-        #tres{
+
+        #tres {
             background-color: blue;
         }
-        footer{
+
+        footer {
             display: flex;
         }
-        #derecha{
+
+        #derecha {
             margin-left: auto;
         }
     </style>
 </head>
+
 <body>
 
     <h1>Flex</h1>
@@ -54,8 +61,75 @@
 
     <footer>
         <div>pie 1</div>
-        <div id="derecha">pie 2</div>
+        <div id="derecha">pie 2<iframe width="560" height="315" src="https://www.youtube.com/embed/be6LOfD1TDQ"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe></div>
     </footer>
-    
+
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/be6LOfD1TDQ" title="YouTube video player"
+        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+
+
+
+    <h1>Tablas</h1>
+    <p>TR -> Table row -> fila</p>
+    <p>TD -> Table data- columna</p>
+
+    <p>table>tr*2>td*3</p>
+
+    <table border="2" cellpadding="10" cellspacing="0">
+        <tr>
+            <th>Titulo col 1</th>
+            <th>Titulo col 2</th>
+            <th>Titulo col 3</th>
+        </tr>
+        <tr>
+            <td>Fila 2 col 1</td>
+            <td>Fila 2 col 2</td>
+            <td>Fila 2 col 3</td>
+        </tr>
+        <tr>
+            <td>Fila 3 col 1</td>
+            <td>Fila 3 col 2</td>
+            <td>Fila 3 col 3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Fila 4 col Lorem, ipsum dolor sit amet consectetur adipisicing elit. Praesentium ullam est
+                corrupti nobis autem, id dicta, quis eos odit, aut possimus accusamus voluptate ad! Vel aliquid ipsum
+                nisi voluptates dolore.</td>
+            <td>Fila 4 col 3</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Fila 5 col 1</td>
+            <td>Fila 5 col 2</td>
+            <td>Fila 5 col 3</td>
+        </tr>
+        <tr>
+            <!-- desaparece por el rowspan <td>Fila 6 col 1</td> -->
+            <td>Fila 6 col 2</td>
+            <td>Fila 6 col 3</td>
+        </tr>
+    </table>
+
+
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
+
 </body>
+
 </html>
